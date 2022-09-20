@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  padding: 50px 0;
+}
+.list-contents {
+  width: 960px;
+}
+.list-contents:nth-child(odd) {
+  background-color: gainsboro;
+}
+p {
+  padding: 20px;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-contents {
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+}
+.box-contents:nth-child(4n+1) {
+  background-color: orange;
+}
+.box-contents:nth-child(3n) {
+  margin-right: 0;
+}
+.box-contents:nth-last-child(3-n) {
+  margin-bottom: 0;
+}
